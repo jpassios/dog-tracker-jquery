@@ -14,6 +14,11 @@ html {
     line-height: 1.4;
 }
 
+body {
+    padding: 0;
+    margin: 0;
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -96,34 +101,98 @@ h1{
     text-align: center;
 }
 
-.header{
-    background-color: rgba(121, 255, 24, 0.65);
-    font-family: sans-serif;
-    color: #856a5c;
-    height:60px;
-    /*padding-top:7px;*/
-    font-size:40px;
-}
-
-.footer{
-    background-color: rgba(121, 255, 24, 0.65);
-    font-family: sans-serif;
-    color: #856a5c;
-    height:35px;
-    font-size:20px;
-    padding-left:1204px;
-    padding-top:9px;
-}
-
-.hdr {
+#hdr {
     position: absolute;
     top:0px;
+    width: 100%;
+    height: 100px;
 }
 
-.ftr {
-    position: absolute;
-    botton:0px;
+.header{
+    background-color: rgba(121, 255, 24, 0.65);
+    font-family: fantasy;
+    color: #6f564c;
+    height:60px;
+    margin: 0;
+    padding: 12px 0px 0px 0px;
+    font-size:59px;
 }
+#pageDescription{
+    color: #6f564c;
+    margin-left: 70px;
+    margin-top: 20px;
+    font-family: fantasy;
+    font-size:22px;
+    padding: 72px 0px 0px 0px;
+
+
+}
+#body-content {
+    color: #6f564c;
+    margin-left: 55px;
+    font-family: fantasy;
+}
+
+.inLineBlockTop{
+    background-color: rgba(121, 255, 24, 0.31);
+    font-family: fantasy;
+    font-size:30px;
+    color: #856a5c;
+    padding-left: 15px;
+    margin-bottom: 42px;
+}
+.inLineBlockBottm{
+    background-color: rgba(121, 255, 24, 0.31);
+    font-family: fantasy;
+    font-size:30px;
+    color: #856a5c;
+    padding-left: 15px;
+}
+
+#addDog{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgba(255, 88, 69, 0.41);
+    background-color:white;
+    font-size: 13px;
+    border-radius: 7px;
+    border-width: 1px;
+
+}
+#viewDog{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgba(255, 88, 69, 0.41);
+    background-color:white;
+    font-size: 13px;
+    border-radius: 7px;
+    border-width: 1px;
+
+
+}
+#footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+#ftr{
+    background-color: rgba(121, 255, 24, 0.65);
+    font-family: sans-serif;
+    color: #6f564c;
+    height:35px;
+    font-size:15px;
+    padding: 20px 0px 0px 1091px;
+    margin: 0px;
+}
+
+#body-content {
+    position: absolute;
+    width: 100%;
+    top: 100px;
+}
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
