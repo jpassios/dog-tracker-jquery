@@ -88,22 +88,42 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.inLineBlockTop{
+    display:block;
+}
 
+h1{
+    text-align: center;
+}
 
+.header{
+    background-color: rgba(121, 255, 24, 0.65);
+    font-family: sans-serif;
+    color: #856a5c;
+    height:60px;
+    /*padding-top:7px;*/
+    font-size:40px;
+}
 
+.footer{
+    background-color: rgba(121, 255, 24, 0.65);
+    font-family: sans-serif;
+    color: #856a5c;
+    height:35px;
+    font-size:20px;
+    padding-left:1204px;
+    padding-top:9px;
+}
 
+.hdr {
+    position: absolute;
+    top:0px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.ftr {
+    position: absolute;
+    botton:0px;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
