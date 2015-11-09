@@ -168,8 +168,13 @@ h1{
     border-radius: 7px;
     border-width: 1px;
 
-
 }
+
+.dog-paw-image {
+    height: 50px;
+    width: 50px;
+}
+
 #footer {
     position: absolute;
     bottom: 0px;
