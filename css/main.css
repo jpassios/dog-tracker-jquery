@@ -124,9 +124,8 @@ h1{
     font-family: fantasy;
     font-size:22px;
     padding: 72px 0px 0px 0px;
-
-
 }
+
 #body-content {
     color: #6f564c;
     margin-left: 55px;
@@ -141,6 +140,7 @@ h1{
     padding-left: 15px;
     margin-bottom: 42px;
 }
+
 .inLineBlockBottm{
     background-color: rgba(121, 255, 24, 0.31);
     font-family: fantasy;
@@ -149,7 +149,7 @@ h1{
     padding-left: 15px;
 }
 
-#addDog{
+.buttons{
     font-family: sans-serif;
     font-weight: bold;
     color: rgba(255, 88, 69, 0.41);
@@ -157,17 +157,6 @@ h1{
     font-size: 13px;
     border-radius: 7px;
     border-width: 1px;
-
-}
-#viewDog{
-    font-family: sans-serif;
-    font-weight: bold;
-    color: rgba(255, 88, 69, 0.41);
-    background-color:white;
-    font-size: 13px;
-    border-radius: 7px;
-    border-width: 1px;
-
 }
 
 .dog-paw-image {
@@ -196,7 +185,6 @@ h1{
     width: 100%;
     top: 100px;
 }
-
 
 /* ==========================================================================
    Helper classes

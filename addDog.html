@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<body>
+<head>
+    <meta charset="UTF-8">
+    <title>Add Your Dog</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/addDog.css">
+</head>
+
+<div id="hdr">
+    <h1 class="header">RACS Dog Tracker <img src="img/dog-prints.png" class="dog-paw-image"></h1>
+</div>
+
+<form class="addDog-form">
+    <h1>
+        <i>Add your Dog</i>
+    </h1>
+
+    <label class ="custom-label">Name:</label>
+    <input type = "text" id="name"><br>
+
+    <label class ="custom-label">Breed:</label>
+    <input type = "text" id="breed"><br>
+
+    <label class ="custom-label">Weight:</label>
+    <input type = "text" id="weight"><br>
+
+    <label class ="custom-label">Age:</label>
+    <input type = "text" id="age"><br>
+
+    <div class="checkbox_labels">
+        <label>Dog's Gender:</label>
+        <input type="radio" name="gender" value="Male" id = "male"><span class="radio-label">Male</span>
+        <input type="radio" name="gender" value="Female" id = "female"><span class="radio-label">Female</span>
+    </div>
+
+    <div class="checkbox_labels">
+        <label>Is your dog spayed or neutered?:</label>
+        <input type="radio" name="dogfixed" id = "fixed"><span class="radio-label">Yes</span>
+        <input type="radio" name="dogfixed" id = "notfixed"><span class="radio-label">No</span>
+    </div>
+
+    <div class="centerButton">
+        <input type="button" onclick="addDog()" value = "Add Dog" class = "savebutton"/>
+        <a href = 'home.html'>
+            <input type="button" value = "Cancel" class="savebutton">
+        </a>
+    </div>
+</form>
+
+<div id="footer">
+    <h3 id="ftr">RACS DogTracker 2015</h3>
+</div>
+
+<script src="js/plugins.js"></script>
+<script src="js/addDog.js"></script>
+
+</body>
+</html>
