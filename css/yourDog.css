@@ -1,0 +1,102 @@
+html {
+    line-height: 1.4;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+h2{
+    color: #6f564c;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 70px;
+    font-family: fantasy;
+    font-size:29px;
+    padding: 3px 0px 0px 0px;
+}
+label{
+    margin-left: 81px;
+    /*margin-top: 10px;*/
+
+}
+.centerButton{
+    margin-bottom: 10px;
+}
+.greenbar{
+    background-color: rgba(121, 255, 24, 0.31);
+    margin-left:80px;
+}
+
+#name{
+    margin-left:15px;
+
+}
+#breed{margin-left: 60px;
+}
+
+#wght{
+    width: 50px;
+
+    
+}
+#age{
+    width: 10px;
+
+}
+.custom-label {
+    color: #646464;
+    font-weight: bold;
+    display: inline-block;
+    width: 150px;
+    font-size: 16px;
+    margin-top:2px;
+    margin-left:13px;
+    margin-bottom: 2px;
+}
+#appnt {
+    font-size: 20px;
+    margin-top: 15px;
+    display: inline-block;
+    width: 22%;
+
+}
+
+#meds {
+    font-size: 20px;
+    display: inline-block;
+    width: 22%;
+}
+
+#vacc {
+    font-size: 20px;
+    display: inline-block;
+    width: 22%;
+}
+
+#diet {
+    font-size: 20px;
+    display: inline-block;
+    width: 22%;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+#ftr{
+    background-color: rgba(121, 255, 24, 0.65);
+    font-family: sans-serif;
+    color: #6f564c;
+    height:18px;
+    font-size:10px;
+    padding: 7px 0px 0px 1111px;
+    margin: 0px;
+}
+
+.plus-button {
+    margin-left:10px;
+    height: 20px;
+}

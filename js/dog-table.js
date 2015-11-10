@@ -29,7 +29,6 @@ xmlRequest.onreadystatechange = function(){
                 cell6.innerHTML= "No";
             }
 
-      
         }
     }
 
