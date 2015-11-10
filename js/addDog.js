@@ -21,7 +21,7 @@ function addDog() {
     var xmlRequests = new XMLHttpRequest();
     xmlRequests.onreadystatechange = function(){
         if (xmlRequests.status === 200 && xmlRequests.readyState === 4){
-            document.location.href = 'addDog.html';
+            document.location.href = 'dog-table.html';
         }
     };
 
