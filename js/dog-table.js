@@ -28,20 +28,17 @@ xmlRequest.onreadystatechange = function(){
             } else {
                 cell6.innerHTML= "No";
             }
-
             row.onclick = (function () {
                 var dogRow = x;
                 return function () {
-                    document.location.href = 'yourDog.html?id=' + dogs[x].id;
+                    document.location.href = 'yourDog.html?id=' + dogs[dogRow].id;
+
                 }
-            });
-        }
+            })();        }
     }
 };
 
 xmlRequest.open("GET","http://dog-tracker-api.herokuapp.com/dogs",true);
 xmlRequest.send();
 
-//function sellpge() {
-//    document.location.href = 'home.html';
-//}
+
