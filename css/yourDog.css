@@ -16,51 +16,72 @@ h2{
     font-size:29px;
     padding: 3px 0px 0px 0px;
 }
+
 label{
     /*margin-left: 81px;*/
     /*margin-top: 10px;*/
 }
+
 .centerButton{
     margin-bottom: 10px;
 }
+
 .greenbar{
     background-color: rgba(121, 255, 24, 0.31);
     margin-left:80px;
 }
 
 #name{
-    margin-left:15px;
+    margin-left:30px;
+    margin: 40px;
 }
 
-#breed{margin-left: 105px;
+#breed{
+    margin-left: 25px;
+    margin: 25px;
 }
 
 #sex{
-    margin-left: 88px;
+    margin-left: 50px;
+    margin: 25px;
 }
 
 #wght{
     width: 10px;
-    margin-left: 98px;
+    margin-left: 25px;
+    margin: 45px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
-#age{
-    width: 10px;
-    margin-left: 36px;
-}
+
 #weight{
     width: 10px;
-    margin-left:58px;
+    margin-left:15px;
+}
+
+#age{
+    width: 10px;
+    margin-left: 15px;
 }
 
 #aagg{
     width: 8px;
     margin-left: 61px;
+    margin: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 #fixed{
     width: 10px;
-    margin-left: 300px;
+    margin-left: 6px;
 }
+
+#fxd{
+    width: 64px;
+    margin-left: 73px;
+}
+
 .custom-label {
     color: #646464;
     font-weight: bold;
@@ -71,6 +92,7 @@ label{
     margin-left:13px;
     margin-bottom: 2px;
 }
+
 #appnt {
     vertical-align: top;
     font-size: 20px;

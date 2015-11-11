@@ -32,13 +32,12 @@ xmlRequest.onreadystatechange = function(){
                 var dogRow = x;
                 return function () {
                     document.location.href = 'yourDog.html?id=' + dogs[dogRow].id;
-
                 }
-            })();        }
+            })();
+        }
     }
 };
 
 xmlRequest.open("GET","http://dog-tracker-api.herokuapp.com/dogs",true);
 xmlRequest.send();
-
 
