@@ -6,7 +6,6 @@ body {
     padding: 0;
     margin: 0;
 }
-
 h2{
     color: #6f564c;
     margin-top: 5px;
@@ -19,6 +18,7 @@ h2{
 label{
     margin-left: 81px;
     /*margin-top: 10px;*/
+
 }
 .centerButton{
     margin-bottom: 10px;
@@ -30,13 +30,12 @@ label{
 
 #name{
     margin-left:15px;
-}
 
+}
 #breed{margin-left: 105px;
 }
-
 #sex{
-    margin-left: 88px;
+    margin-left: 60px;
 }
 
 #wght{
@@ -60,6 +59,8 @@ label{
 #fixed{
     width: 10px;
     margin-left: 300px;
+
+
 }
 .custom-label {
     color: #646464;
@@ -76,6 +77,7 @@ label{
     margin-top: 15px;
     display: inline-block;
     width: 22%;
+
 }
 
 #meds {

@@ -10,7 +10,9 @@ body {
 h1{
     text-align: center;
 }
+
 h2{
+    font-size:29px;
     margin-top: 18px;
     margin-bottom: 5px;
 }
@@ -31,6 +33,11 @@ h2{
     padding: 12px 0px 0px 0px;
     font-size:59px;
 }
+
+tr:not(:first-child):hover {
+    background-color: rgba(255, 32, 69, 0.06);
+}
+
 #pageDscrpt{
     color: #6f564c;
     margin-left: 70px;
@@ -40,9 +47,14 @@ h2{
     padding: 55px 0px 0px 0px;
 }
 
-table, th, td {
-    border: 2px solid rgba(121, 255, 24, 0.65);
-    background-color: rgba(121, 255, 24, 0.31);
+ th{
+    border: 1px solid rgba(121, 255, 24, 0.65);
+    background-color: rgba(117, 255, 22, 0.45);
+}
+
+ table{
+    border: 1px solid rgba(121, 255, 24, 0.65);
+    background-color: rgba(121, 255, 24, 0.2);
     color: #6f564c;
     font-family: sans-serif;
     font-size:14px;
@@ -50,7 +62,14 @@ table, th, td {
     width: 1250px;
     height: 25px;
     margin: auto;
+}
 
+ td {
+    border: 1px solid rgba(121, 255, 24, 0.65);
+    cursor: pointer;
+    width: 1250px;
+    height: 25px;
+    margin-left: 20px;
 }
 
 .dog-paw-image {
@@ -68,8 +87,8 @@ table, th, td {
     background-color: rgba(121, 255, 24, 0.65);
     font-family: sans-serif;
     color: #6f564c;
-    height:30px;
-    font-size:15px;
-    padding: 14px 0px 0px 1091px;
+    height:18px;
+    font-size:10px;
+    padding: 7px 0px 0px 1111px;
     margin: 0px;
 }
