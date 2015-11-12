@@ -51,6 +51,43 @@ xhr.onreadystatechange = function() {
             newDiv.appendChild(newLabel3);
             newDiv.appendChild(newSpan3);
         }
+
+        var medications = document.getElementById("meds");
+
+        for (var i = 0; i < dog.medications.length; i++ ) {
+            var containerDivB = document.createElement("div");
+            containerDivB.className = "medicine-container";
+            medications.appendChild(containerDivB);
+
+            var newDivB = document.createElement("div");
+            containerDivB.appendChild(newDivB);
+            var newLabelB1 = document.createElement("label");
+            newLabelB1.innerHTML = "Name: ";
+            var newSpanB1 = document.createElement("span");
+            newSpanB1.innerHTML = dog.medications[i].name;
+            newDivB.appendChild(newLabelB1);
+            newDivB.appendChild(newSpanB1);
+
+
+            var newDivB = document.createElement("div");
+            containerDivB.appendChild(newDivB);
+            var newLabelB2 = document.createElement("label");
+            newLabelB2.innerHTML = "Dose: ";
+            var newSpanB2 = document.createElement("span");
+            newSpanB2.innerHTML = dog.medications[i].dose;
+            newDivB.appendChild(newLabelB2);
+            newDivB.appendChild(newSpanB2);
+
+
+            var newDivB = document.createElement("div");
+            containerDivB.appendChild(newDivB);
+            var newLabelB3 = document.createElement("label");
+            newLabelB3.innerHTML = "Comment: ";
+            var newSpanB3 = document.createElement("span");
+            newSpanB3.innerHTML = dog.medications[i].comment;
+            newDivB.appendChild(newLabelB3);
+            newDivB.appendChild(newSpanB3);
+        }
     }
 };
 
