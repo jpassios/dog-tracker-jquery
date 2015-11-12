@@ -5,7 +5,8 @@
     border-radius: 5px;
     margin: auto;
     position: absolute;
-    top:91px; left: 0px; bottom: 73px; right: 0px;
+    top:91px; left: 0px; right: 0px;
+    height: 475px;
 }
 
 h1 {
