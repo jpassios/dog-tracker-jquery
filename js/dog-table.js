@@ -32,6 +32,7 @@ xmlRequest.onreadystatechange = function(){
                 var dogRow = x;
                 return function () {
                     document.location.href = 'yourDog.html?id=' + dogs[dogRow].id;
+                    //document.location.href = 'yourDog.html?id=' + dogs[dogRow].id + '&name=' + dogs[dogRow].name;
                 }
             })();
         }
