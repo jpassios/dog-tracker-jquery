@@ -27,8 +27,13 @@ label{
 }
 
 .greenbar{
+    color: #6f564c;
+    font-family: fantasy;
+    font-size: 30px;
+    width: 1360px;
+    height: 40px;
     background-color: rgba(121, 255, 24, 0.31);
-    margin-left:80px;
+    margin-left:95px;
 }
 
 #name{
@@ -103,7 +108,7 @@ label{
 }
 
 #meds {
-    margin-top: 15px;
+    margin-top: 10px;
     vertical-align: top;
     font-size: 20px;
     display: inline-block;
@@ -138,7 +143,7 @@ label{
     color: #6f564c;
     height:18px;
     font-size:10px;
-    padding: 7px 0px 0px 1111px;
+    padding: 7px 0px 0px 1288px;
     margin: 0px;
 }
 
@@ -147,7 +152,7 @@ label{
     height: 20px;
 }
 
-.appointment-container {
+.items-container{
     margin-top: 8px;
     color: black;
     font-size: 16px;
@@ -156,8 +161,8 @@ label{
     width: 65%;
     margin-left:30%;
 }
-
 .subHeader {
     font-size: 24px;
     margin-left: 80px;
+    margin-top: 5px;
 }

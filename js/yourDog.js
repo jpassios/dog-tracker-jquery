@@ -16,10 +16,9 @@ xhr.onreadystatechange = function() {
         }
 
         var appointments = document.getElementById("appnt");
-
         for (var i = 0; i < dog.appointments.length; i++ ) {
             var containerDiv = document.createElement("div");
-            containerDiv.className = "appointment-container";
+            containerDiv.className = "items-container";
             appointments.appendChild(containerDiv);
 
             var newDiv = document.createElement("div");
@@ -31,7 +30,6 @@ xhr.onreadystatechange = function() {
             newDiv.appendChild(newLabel1);
             newDiv.appendChild(newSpan1);
 
-
             var newDiv = document.createElement("div");
             containerDiv.appendChild(newDiv);
             var newLabel2 = document.createElement("label");
@@ -41,7 +39,6 @@ xhr.onreadystatechange = function() {
             newDiv.appendChild(newLabel2);
             newDiv.appendChild(newSpan2);
 
-
             var newDiv = document.createElement("div");
             containerDiv.appendChild(newDiv);
             var newLabel3 = document.createElement("label");
@@ -50,6 +47,63 @@ xhr.onreadystatechange = function() {
             newSpan3.innerHTML = dog.appointments[i].vet_name;
             newDiv.appendChild(newLabel3);
             newDiv.appendChild(newSpan3);
+        }
+
+        var vaccinations = document.getElementById("vacc");
+        for (var v = 0; v < dog.vaccinations.length; v++ ) {
+            var containerDiv = document.createElement("div");
+            containerDiv.className = "items-container";
+            vaccinations.appendChild(containerDiv);
+            var newDiv = document.createElement("div");
+            containerDiv.appendChild(newDiv);
+            var newLabel1 = document.createElement("label");
+            newLabel1.innerHTML = "Name: ";
+            var newSpan1 = document.createElement("span");
+            newSpan1.innerHTML = dog.vaccinations[v].name;
+            newDiv.appendChild(newLabel1);
+            newDiv.appendChild(newSpan1);
+
+            var newDiv = document.createElement("div");
+            containerDiv.appendChild(newDiv);
+            var newLabel1 = document.createElement("label");
+            newLabel1.innerHTML = "Last: ";
+            var newSpan1 = document.createElement("span");
+            newSpan1.innerHTML = dog.vaccinations[v].last;
+            newDiv.appendChild(newLabel1);
+            newDiv.appendChild(newSpan1);
+
+            var newDiv = document.createElement("div");
+            containerDiv.appendChild(newDiv);
+            var newLabel1 = document.createElement("label");
+            newLabel1.innerHTML = "Next: ";
+            var newSpan1 = document.createElement("span");
+            newSpan1.innerHTML = dog.vaccinations[v].next;
+            newDiv.appendChild(newLabel1);
+            newDiv.appendChild(newSpan1);
+        }
+
+        var dietary_restrictions = document.getElementById("diet");
+        for (var d = 0; d < dog.dietary_restrictions.length; d++ ) {
+            var containerDiv = document.createElement("div");
+            containerDiv.className = "items-container";
+            dietary_restrictions.appendChild(containerDiv);
+            var newDiv = document.createElement("div");
+            containerDiv.appendChild(newDiv);
+            var newLabel1 = document.createElement("label");
+            newLabel1.innerHTML = "Food name: ";
+            var newSpan1 = document.createElement("span");
+            newSpan1.innerHTML = dog.dietary_restrictions[d].food_name;
+            newDiv.appendChild(newLabel1);
+            newDiv.appendChild(newSpan1);
+
+            var newDiv = document.createElement("div");
+            containerDiv.appendChild(newDiv);
+            var newLabel1 = document.createElement("label");
+            newLabel1.innerHTML = "Comment: ";
+            var newSpan1 = document.createElement("span");
+            newSpan1.innerHTML = dog.dietary_restrictions[d].comment;
+            newDiv.appendChild(newLabel1);
+            newDiv.appendChild(newSpan1);
         }
     }
 };
