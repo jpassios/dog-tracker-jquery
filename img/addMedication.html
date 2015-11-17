@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!-- saved from url=(0151)http://localhost:63342/DogTracker/dog-tracker-web/addMedication.html?id=1&name=Daisy&breed=German%20Shepard&sex=Female&weight=75&age=13&is_fixed=false -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="./addMedications_files/formTemplate.css">
+</head>
+
+<body>
+
+<div class="greenbar">
+    <span id="name">Daisy</span>
+    <span id="breed">German Shepard</span>
+    <span id="sex">Female</span>
+
+    <label id="wght" class="custom-label">Weight:</label>
+    <span id="weight">75</span>
+
+    <label id="aagg" class="custom-label">Age:</label>
+    <span id="age">13</span>
+
+    <label id="fxd" class="custom-label">Is Fixed:</label>
+    <span id="fixed">No</span>
+
+    <input type="button" onclick="back()" value="Back" class="backbutton button-styles">
+</div>
+
+<form>
+    <h2>Add Medication</h2>
+
+    <input type="text" id="medicinename" placeholder="Name" class="text-box">
+    <input type="text" id="dose" placeholder="Dose" class="text-box">
+    <textarea class="text-area" id="comment" placeholder="Comment" rows="4" cols="50" style="
+    padding:  0px;
+">    </textarea>
+
+    <input type="button" onclick="submitMedication()" value="Save" class="button-styles save-button">
+</form>
+
+<div id="footer">
+    <h3 id="ftr">RACS DogTracker 2015</h3>
+</div>
+
+<script src="./addMedications_files/addMedications.js"></script>
+
+
+</body></html>

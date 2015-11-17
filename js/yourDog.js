@@ -1,7 +1,8 @@
 var xhr = new XMLHttpRequest();
+var dog;
 xhr.onreadystatechange = function() {
     if (xhr.status == 200 && xhr.readyState == 4){
-        var dog = JSON.parse(xhr.responseText);
+        dog = JSON.parse(xhr.responseText);
 
         document.getElementById("name").innerHTML = dog.name;
         document.getElementById("breed").innerHTML = dog.breed;
@@ -150,10 +151,12 @@ xhr.open('GET','http://dog-tracker-api.herokuapp.com/dogs/' + myId, true);
 xhr.send();
 
 function addAppmnt() {
-    console.log ( '#Appointment Button was clicked' );
+    document.location.href = 'addAppointment.html?id=' + myId + '&name=' + dog.name + '&breed=' + dog.breed + '&sex=' + dog.sex + '&weight=' + dog.weight +
+        '&age=' + dog.age + '&is_fixed='+ dog.is_spayed_or_neutered;
 }
 function addMeds() {
-    console.log ( '#Medication Button was clicked' );
+    document.location.href = 'addMedication.html?id=' + myId + '&name=' + dog.name + '&breed=' + dog.breed + '&sex=' + dog.sex + '&weight=' + dog.weight +
+        '&age=' + dog.age + '&is_fixed='+ dog.is_spayed_or_neutered;
 }
 function addVacs() {
     console.log ( '#Vaccination Button was clicked' );
