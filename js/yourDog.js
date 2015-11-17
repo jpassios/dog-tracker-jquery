@@ -69,7 +69,7 @@ xhr.onreadystatechange = function() {
             var newLabel1 = document.createElement("label");
             newLabel1.innerHTML = "Last: ";
             var newSpan1 = document.createElement("span");
-            newSpan1.innerHTML = dog.vaccinations[v].last;
+            newSpan1.innerHTML = new Date(dog.vaccinations[v].last).toDateString();
             newDiv.appendChild(newLabel1);
             newDiv.appendChild(newSpan1);
 
@@ -78,7 +78,7 @@ xhr.onreadystatechange = function() {
             var newLabel1 = document.createElement("label");
             newLabel1.innerHTML = "Next: ";
             var newSpan1 = document.createElement("span");
-            newSpan1.innerHTML = dog.vaccinations[v].next;
+            newSpan1.innerHTML = new Date(dog.vaccinations[v].next).toDateString();
             newDiv.appendChild(newLabel1);
             newDiv.appendChild(newSpan1);
         }

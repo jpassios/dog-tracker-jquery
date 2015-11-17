@@ -1,6 +1,7 @@
 function svbttn() {
 
     var vaccinationObj = {};
+
     vaccinationObj.dog_id = params[0].split("=")[1];
     vaccinationObj.name = document.getElementById("vname").value;
     vaccinationObj.last = document.getElementById("vlast").value;
