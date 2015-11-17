@@ -31,3 +31,5 @@ function addDog() {
     xmlRequests.send(JSON.stringify({dog: dogObj}));
 
 }
+
+

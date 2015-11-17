@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title></title>
-    <link rel="stylesheet" href="css/formTemplate.css">
+    <link rel="stylesheet" href="css/dogDiet.css">
 </head>
-
 <body>
 
 <div class="greenbar">
@@ -19,28 +18,30 @@
     <label id="aagg" class ="custom-label">Age:</label>
     <span id="age"></span>
 
-    <label id="fxd" class ="custom-label">Is Fixed:</label>
+    <label id=fxd class ="custom-label">Is Fixed:</label>
     <span id="fixed"></span>
-    <a href = 'dog-table.html'>
-        <input type="button" value = "Back" class="backbutton button-styles">
-    </a>
+
+    <input onclick="bkbttn()" type="button" value = "Back" class="backbutton">
+
 </div>
 
 <form>
-    <h2>Test</h2>
+    <h2>Diet Restrictions</h2>
 
-    <input type = "text" placeholder="Name" class="text-box">
+    <input id=drname type = "text" placeholder="Name" class="text-box">
 
-    <textarea class="text-area" rows="4" cols="50">
+    <textarea id=drcomments class="text-area" rows="4" cols="50">
     </textarea>
 
-    <input type="button" value = "Save" class="button-styles save-button">
+    <input onclick="svbttn()" type="button" value = "Save" class="button-styles save-button">
+
 </form>
 
 <div id="footer">
     <h3 id="ftr">RACS DogTracker 2015</h3>
 </div>
 
-<!--<script src="js/formTemplate.js"></script>-->
+<script src="js/dogDiet.js"></script>
+
 </body>
 </html>
