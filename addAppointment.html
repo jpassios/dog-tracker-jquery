@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/formTemplate.css">
+</head>
+
+<body>
+
+<div class="greenbar">
+    <span id="name"></span>
+    <span id="breed"></span>
+    <span id="sex"></span>
+
+    <label id="wght" class ="custom-label">Weight:</label>
+    <span id="weight"></span>
+
+    <label id="aagg" class ="custom-label">Age:</label>
+    <span id="age"></span>
+
+    <label id="fxd" class ="custom-label">Is Fixed:</label>
+    <span id="fixed"></span>
+
+    <input type="button" onclick="back()" value = "Back" class="backbutton button-styles">
+
+</div>
+
+<form>
+    <h2>Add Appointment</h2>
+
+    <input type = "text" id = "appointment_date" placeholder="Date" class="text-box">
+    <input type = "text" id = "location" placeholder="Location" class="text-box">
+    <input type = "text" id = "vet_name" placeholder="Vet Name" class="text-box">
+
+    <input type="button" onclick="submitAppt()" value = "Save" class="button-styles save-button">
+ </form>
+
+<div id="footer">
+    <h3 id="ftr">RACS DogTracker 2015</h3>
+</div>
+
+<script src="js/addAppointment.js"></script>
+<script src="js/formTemplate.js"></script>
+</body>
+</html>

@@ -1,24 +1,3 @@
-
-var params = decodeURI(document.location.search);
-    params = params.split('&');
-        document.getElementById("name").innerHTML = params[1].split("=")[1];
-        document.getElementById("breed").innerHTML = params[2].split("=")[1];
-        document.getElementById("weight").innerHTML = params[4].split("=")[1];
-        document.getElementById("age").innerHTML = params[5].split("=")[1];
-        document.getElementById("sex").innerHTML = params[3].split("=")[1];
-
-if (params[6].split("=")[1]) {
-        document.getElementById("fixed").innerHTML = 'Yes';
-}
-else
-{
-        document.getElementById("fixed").innerHTML = 'No';
-}
-
-function bkbttn() {
-        document.location.href = 'yourDog.html?id='+ params[0].split("=")[1];
-}
-
 function svbttn() {
 
     var vaccinationObj = {};
@@ -38,6 +17,3 @@ function svbttn() {
     xmlRequests.setRequestHeader('Content-Type', 'application/json');
     xmlRequests.send(JSON.stringify({vaccination: vaccinationObj}));
 }
-
-
-
