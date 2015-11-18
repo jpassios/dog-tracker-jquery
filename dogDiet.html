@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title></title>
-    <link rel="stylesheet" href="css/dogDiet.css">
+    <link rel="stylesheet" href="css/formTemplate.css">
 </head>
 <body>
 
@@ -29,9 +29,12 @@
 <form>
     <h2>Diet Restrictions</h2>
 
-    <input id=drname type = "text" placeholder="Name" class="text-box">
+<div class="main">
+    <label class="label">Food Name</label>
+    <input type = "text" class="text-box">
+</div>
 
-    <textarea id=drcomments class="text-area" rows="4" cols="50"></textarea>
+    <textarea class="text-area" rows="4" cols="50" placeholder="Comment"></textarea>
 
     <input onclick="svbttn()" type="button" value = "Save" class="button-styles save-button">
 

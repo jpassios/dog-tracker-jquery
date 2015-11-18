@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title></title>
-    <link rel="stylesheet" href="css/dogVaccs.css">
+    <link rel="stylesheet" href="css/formTemplate.css">
 </head>
 <body>
 <!DOCTYPE html>
@@ -34,10 +34,24 @@
 <form>
     <h2>Vaccinations</h2>
 
-    <input id="vname" type = "text" placeholder="Name" class="text-box">
-    <input id="vlast" type = "date" placeholder="Last Innoculation" class="text-box">
-    <input id="vnext" type = "date" placeholder="Next Innoculation" class="text-box">
-    <input onclick="svbttn()" type="button" value = "Save" class="button-styles save-button">
+    <div class="main">
+        <label class="label">Vaccination Name</label>
+        <input type = "text" class="text-box">
+    </div>
+
+    <div class="main">
+        <label class="label">Last Appointment</label>
+        <input type = "date" class="text-box">
+    </div>
+
+    <div class="main">
+        <label class="label">Next Appointment</label>
+        <input type = "date" class="text-box">
+    </div>
+
+    <div class="main clearfix">
+        <input onclick="svbttn()" type="button" value = "Save" class="button-styles save-button">
+    </div>
 
 </form>
 
