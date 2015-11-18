@@ -144,8 +144,10 @@ form{
 }
 
 .save-button {
-    display: block;
-    margin: auto;
+    width:49%;
+    display: inline-block;
+    margin:auto;
+    /*text-align: center;*/
 }
 
 .button-styles {

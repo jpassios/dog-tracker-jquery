@@ -29,9 +29,17 @@
 <form>
     <h2>Add Medication</h2>
 
-    <input type = "text" id = "medicinename" placeholder="Name" class="text-box">
-    <input type = "text" id = "dose" placeholder="Dose" class="text-box">
-    <textarea rows="4" cols="50" class="text-area" id = "comment" placeholder="Comment"></textarea>
+    <div class="main">
+        <label class="label">Name</label>
+        <input type = "text" class="text-box">
+    </div>
+
+    <div class="main">
+        <label class="label">Dose</label>
+        <input type = "text" class="text-box">
+    </div>
+
+    <textarea rows="4" cols="50" class="text-area"  placeholder="Comment"></textarea>
 
     <input type="button" onclick="submitMedication()" value = "Save" class="button-styles save-button">
 </form>

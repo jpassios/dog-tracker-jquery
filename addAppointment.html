@@ -30,9 +30,20 @@
 <form>
     <h2>Add Appointment</h2>
 
-    <input type = "date" id = "appointment_date" placeholder="Date" class="text-box">
-    <input type = "text" id = "location" placeholder="Location" class="text-box">
-    <input type = "text" id = "vet_name" placeholder="Vet Name" class="text-box">
+    <div class="main">
+        <label class="label">Date</label>
+        <input type = "date" class="text-box">
+    </div>
+
+    <div class="main">
+        <label class="label">Location</label>
+        <input type = "text" class="text-box">
+    </div>
+
+    <div class="main">
+        <label class="label">Vet Name</label>
+        <input type = "text" class="text-box">
+    </div>
 
     <input type="button" onclick="submitAppt()" value = "Save" class="button-styles save-button">
  </form>
