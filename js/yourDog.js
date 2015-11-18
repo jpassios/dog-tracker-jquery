@@ -166,3 +166,10 @@ function addDiet() {
         '&age=' + dog.age + '&is_fixed=' + dog.is_spayed_or_neutered;
 }
 
+function back(){
+    document.location.href = "dog-table.html";
+}
+
+function home(){
+    document.location.href = "home.html";
+}
