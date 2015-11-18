@@ -37,3 +37,7 @@ xmlRequest.onreadystatechange = function(){
 
 xmlRequest.open("GET","http://dog-tracker-api.herokuapp.com/dogs",true);
 xmlRequest.send();
+
+function home(){
+    document.location.href = "home.html";
+}
