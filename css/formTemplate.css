@@ -151,10 +151,8 @@ form{
     font-family: sans-serif;
 }
 .save-button {
-    width:49%;
-    display: inline-block;
-    margin:auto;
-    /*text-align: center;*/
+    display: block;
+    margin: auto;
 }
 
 .button-styles {
