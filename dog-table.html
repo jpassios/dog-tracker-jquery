@@ -6,32 +6,38 @@
     <link rel="stylesheet" href="css/dog-table.css">
 </head>
 <body>
+    <div id="hdr">
 
-        <div id="hdr">
-            <h1 class="header">RACS Dog Tracker <img src="img/dog-prints.png" class="dog-paw-image"></h1>
+        <h1 class="header">RACS Dog Tracker <img src="img/dog-prints.png" class="dog-paw-image">
+        </h1>
+        <div>
+            <input type="button" onclick="home()" value="Home" class="backbutton button-styles homebutton">
         </div>
+    </div>
 
-        <div id="pageDscrpt">
-            <h2>  Dog Tracker Viewer
-            </h2>
-         </div>
+    <div id="pageDscrpt">
+        <h2>
+            Dog Tracker Viewer
+        </h2>
+    </div>
 
-<table id="petable">
+    <table id="petable">
 
-    <tr>
-        <th>Name</th>
-        <th>Breed</th>
-        <th>Weight</th>
-        <th>Age</th>
-        <th>Sex</th>
-        <th>Spade/Neutered</th>
-    </tr>
+        <tr>
+            <th>Name</th>
+            <th>Breed</th>
+            <th>Weight</th>
+            <th>Age</th>
+            <th>Sex</th>
+            <th>Spade/Neutered</th>
+        </tr>
 
-</table>
+    </table>
 
-<div id="footer">
-    <h3 id="ftr">RACS DogTracker 2015</h3>
-</div>
-<script src="js/dog-table.js"></script>
+    <div id="footer">
+        <h3 id="ftr">RACS DogTracker 2015</h3>
+    </div>
+    <script src="js/dog-table.js"></script>
+    <script src="js/formTemplate.js"></script>
 </body>
 </html>

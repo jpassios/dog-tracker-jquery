@@ -1,7 +1,3 @@
-/**
- * Created by timmalesky on 11/9/15.
- */
-
 var xmlRequest = new XMLHttpRequest();
 xmlRequest.onreadystatechange = function(){
     if (xmlRequest.readyState===4 && xmlRequest.status===200) {
@@ -41,4 +37,3 @@ xmlRequest.onreadystatechange = function(){
 
 xmlRequest.open("GET","http://dog-tracker-api.herokuapp.com/dogs",true);
 xmlRequest.send();
-

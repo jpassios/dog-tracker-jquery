@@ -24,6 +24,24 @@ h2{
     height: 100px;
 }
 
+.button-styles {
+    height: 26px;
+    width: 99px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background: black;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.homebutton {
+    display: inline-block;
+    margin-right:22px;
+    margin-top: -49px;
+    float: right;
+}
+
 .header{
     background-color: rgba(121, 255, 24, 0.65);
     font-family: fantasy;

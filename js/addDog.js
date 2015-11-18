@@ -27,9 +27,5 @@ function addDog() {
 
     xmlRequests.open('POST','http://dog-tracker-api.herokuapp.com/dogs',true);
     xmlRequests.setRequestHeader('Content-Type', 'application/json');
-
     xmlRequests.send(JSON.stringify({dog: dogObj}));
-
 }
-
-

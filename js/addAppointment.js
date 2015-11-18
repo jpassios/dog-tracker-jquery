@@ -17,6 +17,6 @@ function submitAppt() {
 
     xmlRequests.open('POST','http://dog-tracker-api.herokuapp.com/appointments',true);
     xmlRequests.setRequestHeader('Content-Type', 'application/json');
-
     xmlRequests.send(JSON.stringify(appt));
 }
+

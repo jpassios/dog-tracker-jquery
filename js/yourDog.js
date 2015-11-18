@@ -123,7 +123,6 @@ xhr.onreadystatechange = function() {
             newDivB.appendChild(newLabelB1);
             newDivB.appendChild(newSpanB1);
 
-
             var newDivB = document.createElement("div");
             containerDivB.appendChild(newDivB);
             var newLabelB2 = document.createElement("label");
@@ -132,7 +131,6 @@ xhr.onreadystatechange = function() {
             newSpanB2.innerHTML = dog.medications[i].dose;
             newDivB.appendChild(newLabelB2);
             newDivB.appendChild(newSpanB2);
-
 
             var newDivB = document.createElement("div");
             containerDivB.appendChild(newDivB);
@@ -166,4 +164,12 @@ function addVacs() {
 function addDiet() {
     document.location.href = 'dogDiet.html?id=' + myId + '&name=' + dog.name + '&breed=' + dog.breed + '&sex=' + dog.sex + '&weight=' + dog.weight +
         '&age=' + dog.age + '&is_fixed=' + dog.is_spayed_or_neutered;
+}
+
+function back(){
+    document.location.href = "dog-table.html";
+}
+
+function home(){
+    document.location.href = "home.html";
 }
