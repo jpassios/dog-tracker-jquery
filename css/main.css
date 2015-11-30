@@ -94,7 +94,7 @@ h1{
 }
 
 .header{
-    background-color: rgba(121, 255, 24, 0.65);
+    background-color: rgba(121, 255, 24, 1);
     font-family: fantasy;
     color: #6f564c;
     height:60px;
@@ -118,7 +118,7 @@ h1{
 }
 
 .inLineBlockTop{
-    background-color: rgba(121, 255, 24, 0.31);
+    background-color: rgba(121, 255, 24, 1);
     font-family: fantasy;
     font-size:30px;
     color: #856a5c;
@@ -127,7 +127,7 @@ h1{
 }
 
 .inLineBlockBottm{
-    background-color: rgba(121, 255, 24, 0.31);
+    background-color: rgba(121, 255, 24, 1);
     font-family: fantasy;
     font-size:30px;
     color: #856a5c;
@@ -142,6 +142,7 @@ h1{
     font-size: 13px;
     border-radius: 7px;
     border-width: 1px;
+    cursor: pointer;
 }
 
 .dog-paw-image {
@@ -156,7 +157,7 @@ h1{
 }
 
 #ftr{
-    background-color: rgba(121, 255, 24, 0.65);
+    background-color: rgba(121, 255, 24, 1);
     font-family: sans-serif;
     color: #6f564c;
     height:18px;

@@ -5,10 +5,9 @@
     <title></title>
     <link rel="stylesheet" href="css/dog-table.css">
 </head>
-<body>
     <div id="hdr">
 
-        <h1 class="header">RACS Dog Tracker <img src="img/dog-prints.png" class="dog-paw-image">
+        <h1 class="page-header">RACS Dog Tracker <img src="img/dog-prints.png" class="dog-paw-image">
         </h1>
         <div>
             <input type="button" onclick="home()" value="Home" class="backbutton button-styles homebutton">
@@ -20,23 +19,29 @@
             Dog Tracker Viewer
         </h2>
     </div>
+    <div class = "wrapper">
+        <table id="petable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Breed</th>
+                    <th>Weight</th>
+                    <th>Age</th>
+                    <th>Sex</th>
+                    <th>Spade/Neutered</th>
+                </tr>
+            </thead>
+            <tbody id="pet-table-body">
 
-    <table id="petable">
-
-        <tr>
-            <th>Name</th>
-            <th>Breed</th>
-            <th>Weight</th>
-            <th>Age</th>
-            <th>Sex</th>
-            <th>Spade/Neutered</th>
-        </tr>
-
-    </table>
-
+            </tbody>
+        </table>
+    </div>
     <div id="footer">
         <h3 id="ftr">RACS DogTracker 2015</h3>
     </div>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/jquery.floatThead.js"></script>
+    <script src="js/jquery.tablesorter.min.js"></script>
     <script src="js/dog-table.js"></script>
 
 </body>

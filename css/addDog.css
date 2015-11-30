@@ -7,6 +7,7 @@
     position: absolute;
     top:91px; left: 0px; right: 0px;
     height: 475px;
+    cursor: pointer;
 }
 
 h1 {
@@ -27,6 +28,7 @@ h1 {
     font-size: 16px;
     font-family: sans-serif;
     text-allign:center;
+    cursor: pointer;
 }
 
 .centerButton{
@@ -47,7 +49,6 @@ input[type="text"] {
     font-size: 18px;
     display: inline-block;
     width: 100px;
-
     margin-left:140px;
 }
 
